@@ -1,0 +1,183 @@
+/********** Start Blog Sectoin CSS ************/
+
+.blog-section{}
+
+.pricing-table{
+    background: #F6F9FC;
+}
+.pricing-content{}
+.pricing-content h5{
+    color: #86A5F1;
+    font-size: 16px;
+}
+.pricing-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    position: relative;
+}
+.pricing-content h2::after {
+    content: "";
+    position: absolute;
+    top: 54px;
+    left: 290px;
+    width: 9%;
+    height: 2px;
+    background: rgba(0, 0, 255, 0.65);
+}
+.pricing-content p {
+    font-size: 16px;
+    color: #77748b;
+    padding-top: 30px;
+}
+
+.blog-items{}
+.blog-items .blog-img{
+    
+}
+.blog-items .blog-img img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+.blog-items .blog-member{}
+.blog-items .blog-member{}
+.blog-items .blog-member span {
+    background: blue;
+    padding: 4px 14px;
+    color: #fff;
+   
+}
+/* .blog-items .blog-member {
+    position: absolute;
+    bottom: 90px;
+    left: 491px;
+    margin: auto;
+} */       
+
+.blog-items .blog-member span img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    
+}
+.blog-items .blog-member p{}
+
+
+.blog-content{}
+.blog-content h5 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+.blog-content p {
+    color: #C3BFCA;
+    margin-top: 20px;
+}
+/********** End Blog Sectoin CSS ************/
+
+/********** Start Client Sectoin CSS ************/
+.out-client{}
+.client-content {
+    width: 52%;
+}
+.client-content h5 {
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.client-content h2 {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    position: relative;
+    padding-bottom: 15px;
+    line-height: 50px;
+    width: 350px;
+}
+.client-content h2::after {
+    content: "";
+    position: absolute;
+    width: 17%;
+    height: 2px;
+    left: 0px;
+    top: 169px;
+    background: blue;
+}
+.client-content p {
+    color: #626B76;
+}
+.client-icon {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.client-icon img {
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+/********** End Client Sectoin CSS ************/
+
+
+
+/********** Start footer Sectoin CSS ************/
+.footer{
+    background: #081828;
+    color: #fff;
+}
+.footer-item{}
+.footer-content{}
+.footer-content img{
+    width: 150px;
+    padding-bottom: 20px;
+}
+.footer-content p {
+    color: #626B76;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+.footer-social{}
+.footer-social span {
+    font-size: 20px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.footer-content{}
+.footer-content h4 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 10px;
+}
+.footer-content h4::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 71%;
+    left: -10px;
+    top: 0;
+    background: rgba(12, 50, 221, 0.767);
+}
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-content ul li {
+    margin-bottom: 20px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    align-items: center;
+    border-top: 1px solid rgba(221, 221, 221, 0.452);
+    margin-top: 50px;
+}
+
+/********** End footer Sectoin CSS ************/
+
